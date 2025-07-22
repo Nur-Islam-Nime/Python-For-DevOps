@@ -1,6 +1,7 @@
-#This is single line comment
-"""this is 
-multiline comment """
-print("This is for comment")
+# This is single line comment in Python 
+""" This is multiline 
+comment """
+''' Multiline comment can 
+be write using  this '''
 
-# Also i can use '' for commenting 
+print(" This is example of how to add comment on Python.")
