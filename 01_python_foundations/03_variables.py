@@ -29,3 +29,34 @@ _language = "Bash"  # Good practice
 print(f'My name is {last_name}')
 
 print("Hello", first_name )
+
+
+    # Casting : Specify the data type of a variable, this can be done with casting.
+
+x = str(5)    # x will be '5'
+y = int(6)    # y will be 6
+z = float(8.5)  # z will be 8.5
+
+    # Get the Type : Data type of a variable with the type() function.
+
+x = 10
+y = "Nime"
+print(type(x))
+print(type(y))
+
+
+    # Many Values to Multiple Variables : Python allows assign values to multiple variables in one line:
+    # Number of variables matches the number of values
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+    # One Value to Multiple Variables 
+    # The same value to multiple variables in one line:
+
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
