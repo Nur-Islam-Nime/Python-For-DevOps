@@ -55,8 +55,11 @@ print(z)
     # One Value to Multiple Variables 
     # The same value to multiple variables in one line:
 
+""" 
 x = y = z = "Orange"
 print(x)
 print(y)
 print(z)
+
+"""
 
